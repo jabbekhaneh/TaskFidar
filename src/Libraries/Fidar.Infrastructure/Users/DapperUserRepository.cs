@@ -15,7 +15,7 @@ public class DapperUserRepository : UserRepository
     }
     public async Task<int> AddAsync(User entity)
     {
-        entity.CreateOn = DateTime.Now;
+        entity.AddTime(DateTime.Now);
         var sql = "Insert into Users (Name,Age,CreateOn,Credit) VALUES (@Name,@Age,@CreateOn,@Credit)";
         using (var connection = new SqlConnection(configuration.GetConnectionString("DefaultConnection")))
         {

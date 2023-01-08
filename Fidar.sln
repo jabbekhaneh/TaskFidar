@@ -11,13 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AE6FBF6E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prsentation", "Prsentation", "{6CF6FC7F-FC97-4279-9F31-4FF28743C17A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fidar.Domain", "src\Libraries\Fidar.Domain\Fidar.Domain.csproj", "{A14A2294-30A1-4C5E-91E9-38A06411DF1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fidar.Domain", "src\Libraries\Fidar.Domain\Fidar.Domain.csproj", "{A14A2294-30A1-4C5E-91E9-38A06411DF1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fidar.Infrastructure", "src\Libraries\Fidar.Infrastructure\Fidar.Infrastructure.csproj", "{C6C6AEE2-C258-4631-9C55-9CCEBED4892A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fidar.Infrastructure", "src\Libraries\Fidar.Infrastructure\Fidar.Infrastructure.csproj", "{C6C6AEE2-C258-4631-9C55-9CCEBED4892A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fidar.Application", "src\Libraries\Fidar.Application\Fidar.Application.csproj", "{DB8CE512-6800-43F6-A7F5-DC1451A62E97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fidar.Application", "src\Libraries\Fidar.Application\Fidar.Application.csproj", "{DB8CE512-6800-43F6-A7F5-DC1451A62E97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fidar.API", "src\Prsentation\Fidar.API\Fidar.API.csproj", "{986F6F36-FC95-4D77-97E1-C8500020449A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fidar.API", "src\Prsentation\Fidar.API\Fidar.API.csproj", "{986F6F36-FC95-4D77-97E1-C8500020449A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fidar.Application.Test", "src\tests\Fidar.Application.Test\Fidar.Application.Test.csproj", "{30A94E97-97EA-4CC1-85CD-D925F3101D15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{986F6F36-FC95-4D77-97E1-C8500020449A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{986F6F36-FC95-4D77-97E1-C8500020449A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{986F6F36-FC95-4D77-97E1-C8500020449A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A94E97-97EA-4CC1-85CD-D925F3101D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A94E97-97EA-4CC1-85CD-D925F3101D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A94E97-97EA-4CC1-85CD-D925F3101D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A94E97-97EA-4CC1-85CD-D925F3101D15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{C6C6AEE2-C258-4631-9C55-9CCEBED4892A} = {D63CD368-1FC3-4991-800F-5459549FCFC7}
 		{DB8CE512-6800-43F6-A7F5-DC1451A62E97} = {D63CD368-1FC3-4991-800F-5459549FCFC7}
 		{986F6F36-FC95-4D77-97E1-C8500020449A} = {6CF6FC7F-FC97-4279-9F31-4FF28743C17A}
+		{30A94E97-97EA-4CC1-85CD-D925F3101D15} = {AE6FBF6E-81DE-4F71-B753-492029D87B9D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {412C3D9F-30D0-4867-BECC-7C08F40F1333}
